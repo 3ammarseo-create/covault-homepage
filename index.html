@@ -797,8 +797,7 @@ html { scroll-padding-top:120px; }
 .cv-footer-column>a {font-size:13px;line-height:1.8;color:#cfcece;}
 .cv-footer-column a:hover,.cv-social-links a:hover {color:#f1d0a0;text-decoration:underline;text-underline-offset:5px;}
 .cv-footer-contact p {margin:0;}
-.cv-footer-contact .cv-footer-phone {font-size:19px;font-family:Arial,sans-serif;letter-spacing:.7px;color:#f6e8d7;margin-top:5px;}
-.cv-footer-contact .cv-footer-whatsapp {color:#ddc19d;font-size:12px;}
+.cv-footer-contact .cv-footer-phone {font-size:19px;font-family:Arial,sans-serif;letter-spacing:.7px;color:#f6e8d7;margin-top:5px;}.cv-footer-contact .cv-footer-whatsapp {color:#ddc19d;font-size:12px;}
 .cv-footer-bottom {display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid rgba(224,204,174,.2);padding:22px 0;color:#b4b7c0;font-size:11px;line-height:1.8;}
 .cv-footer-bottom>a {color:#ead5b8;white-space:nowrap;}
 .cv-faq p a {text-decoration:underline;text-underline-offset:4px;}
@@ -998,3 +997,461 @@ html { scroll-padding-top:120px; }
 .cv-tools-products {background:var(--cv-cream);padding:0 0 70px;}
 .cv-tools-banner {padding-bottom:48px;}
 .cv-tools-products .cv-product-media img {object-fit:contain;}
+.cv-tools-products .cv-product-media {background:#e5d8c5;}
+.cv-tools-products .cv-product-price {margin-top:8px;}
+.cv-product-availability {color:#746553;font-size:11px;margin:7px 0 0;}
+.cv-business-options .cv-section-heading .cv-eyebrow {margin-bottom:12px;}
+.cv-business-options .cv-duo-card {min-height:0;aspect-ratio:4/5;background:#14213d;}
+.cv-business-options .cv-duo-card>img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+.cv-business-options .cv-duo-card:after {background:linear-gradient(0deg,rgba(20,33,61,.62),rgba(20,33,61,.12) 34%,transparent 62%);}
+.cv-business-options .cv-duo-copy {width:100%;padding:32px;}
+.cv-business-options .cv-duo-copy h3 {font-size:clamp(25px,2.9vw,36px);line-height:1.4;margin-bottom:11px;}
+.cv-business-options .cv-duo-copy p {font-size:14px;line-height:1.9;}
+.cv-business-options .cv-duo-copy a {font-size:14px;margin-top:16px;}
+.cv-business-options .cv-duo-copy i {font-style:normal;}
+@media(max-width:700px){
+ .cv-products>.cv-wrap>.cv-headrow {margin-bottom:25px;}.cv-tools-banner {padding-bottom:35px;}.cv-tools-products {padding-bottom:48px;}
+ .cv-business-options .cv-duo-copy {padding:24px;}.cv-business-options .cv-duo-copy h3 {font-size:28px;}.cv-business-options .cv-duo-copy p {font-size:13px;}.cv-business-options .cv-duo-copy span {font-size:11px;}.cv-business-options .cv-duo-copy a {font-size:13px;margin-top:12px;}
+}
+@media(max-width:380px){.cv-business-options .cv-duo-copy {padding:20px;}.cv-business-options .cv-duo-copy h3 {font-size:24px;}.cv-business-options .cv-duo-copy p {font-size:12px;}}
+
+
+/* v21: smaller business cards, original wholesale packs and concise captions */
+.cv-business-options--compact .cv-duo {gap:22px;align-items:stretch;}
+.cv-business-options--compact .cv-duo-card {display:flex;flex-direction:column;min-height:0;aspect-ratio:auto;border-radius:23px;background:#14213d;border:1px solid rgba(136,98,62,.15);box-shadow:0 12px 30px rgba(20,33,61,.08);}
+.cv-business-options--compact .cv-duo-card:after {display:none;}
+.cv-business-photo {display:block;width:100%;height:clamp(220px,24vw,290px);flex-shrink:0;overflow:hidden;background:#deceb9;}
+.cv-business-options--compact .cv-business-photo img {display:block;position:static;width:100%;height:100%;object-fit:cover;object-position:center 55%;}
+.cv-business-options--compact .cv-business-photo--bags {display:grid;grid-template-columns:1fr 1fr;gap:0;}
+.cv-business-options--compact .cv-business-photo--bags img {min-width:0;object-position:center 63%;}
+.cv-business-options--compact .cv-duo-copy {position:static;width:100%;padding:21px 25px 23px;flex:1;display:flex;flex-direction:column;align-items:flex-start;}
+.cv-business-options--compact .cv-duo-copy>span {font-size:11px;margin-bottom:7px;color:#d6b991;}
+.cv-business-options--compact .cv-duo-copy h3 {font-size:clamp(21px,2.1vw,28px);line-height:1.45;margin:0 0 12px;color:#fff7ed;}
+.cv-business-options--compact .cv-duo-copy>a {font-size:12px;line-height:1.7;margin-top:auto;color:#e3c59f;}
+.cv-business-photo:focus-visible {outline:3px solid #d7ba90;outline-offset:-5px;}
+@media(max-width:700px){
+ .cv-business-options--compact .cv-duo {gap:20px;}
+ .cv-business-photo {height:240px;}
+ .cv-business-options--compact .cv-duo-copy {padding:18px 21px 21px;}
+ .cv-business-options--compact .cv-duo-copy h3 {font-size:24px;line-height:1.4;}
+}
+@media(max-width:380px){.cv-business-photo {height:215px;}.cv-business-options--compact .cv-duo-copy h3 {font-size:22px;}}
+
+</style>
+</head>
+<body id="page-top">
+<a class="cv-skip" href="#main-content">انتقل إلى المحتوى</a>
+<div class="cv-brand-strip"><span>من الحبة إلى الفنجان</span><span class="cv-brand-strip__mark" aria-hidden="true">✦</span><span>حيث تختزن أصالة القهوة</span></div>
+<header class="cv-site-header">
+  <div class="cv-wrap cv-site-header__inner">
+    <a class="cv-site-logo" href="https://bycovault.com/" aria-label="كوڤولت — الرئيسية"><img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" width="90" height="90" alt="كوڤولت"></a>
+    <nav class="cv-desktop-nav" aria-label="القائمة الرئيسية"><a href="https://bycovault.com/محاصيل-الخزنة/c2102284591">محاصيل القهوة</a>
+<a href="https://bycovault.com/أظرف-القهوة/c1727788673">أظرف القهوة</a>
+<a href="https://bycovault.com/بوكسات-الخزنة/c418488105">بوكسات القهوة</a>
+<a href="https://bycovault.com/أدوات-تحضير-ومكائن-منزلية/c843725366">أدوات التحضير</a>
+<a href="https://bycovault.com/خدمات-تأسيس-المقهي/c377551924">تجهيز المقاهي</a>
+<a href="https://bycovault.com/دورات-معتمدة/c1339573009">الدورات</a></nav>
+    <div class="cv-site-header__actions">
+      <a class="cv-header-contact" href="https://wa.me/966543038208">تواصل معنا <span aria-hidden="true">↗</span></a>
+      <a class="cv-cart-link" href="https://bycovault.com/cart" aria-label="سلة التسوق"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 7h14l1 14H4L5 7Z"/><path d="M8 8V6a4 4 0 0 1 8 0v2"/></svg><span>السلة</span></a>
+      <details class="cv-mobile-menu">
+        <summary aria-label="القائمة الرئيسية"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg><span>القائمة</span></summary>
+        <nav aria-label="قائمة الجوال"><a href="https://bycovault.com/محاصيل-الخزنة/c2102284591">محاصيل القهوة</a>
+<a href="https://bycovault.com/أظرف-القهوة/c1727788673">أظرف القهوة</a>
+<a href="https://bycovault.com/بوكسات-الخزنة/c418488105">بوكسات القهوة</a>
+<a href="https://bycovault.com/أدوات-تحضير-ومكائن-منزلية/c843725366">أدوات التحضير</a>
+<a href="https://bycovault.com/خدمات-تأسيس-المقهي/c377551924">تجهيز المقاهي</a>
+<a href="https://bycovault.com/دورات-معتمدة/c1339573009">الدورات</a><a href="https://wa.me/966543038208">تواصل معنا ↗</a><a href="#faq">الأسئلة الشائعة</a></nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<main class="cv-home" id="main-content" tabindex="-1">
+
+  <section class="covault-hero" id="top" aria-labelledby="covault-hero-title">
+      <div class="covault-hero__media" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="data:image/webp;base64,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">
+          <source src="https://cdn.prod.website-files.com/69e353de1b974fa98e8d1c92%2F69e7d1ef5be36d7b5dde9e6b_hero-backdrop_1_mp4.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="covault-hero__shade" aria-hidden="true"></div>
+  
+      <div class="covault-hero__inner">
+        <div class="covault-hero__copy">
+          <p class="covault-hero__eyebrow"><span lang="ar" dir="rtl">كوڤولت</span> حيث تختزن أصالة القهوة</p>
+          <h1 id="covault-hero-title">كل عالم القهوة <em>في مكان واحد</em></h1>
+          <p class="covault-hero__description">محاصيل مختارة لقهوتك اليومية، أدوات تحضير، وحلول متكاملة لتجهيز مشروع مقهاك — المنتج والخبرة في مكان واحد.</p>
+          <div class="covault-hero__buttons">
+            <a class="covault-hero__button covault-hero__button--cream" href="https://bycovault.com/محاصيل-الخزنة/c2102284591" target="_blank" rel="noopener noreferrer">تسوّق محاصيل القهوة <span aria-hidden="true">↗</span></a>
+            <a class="covault-hero__button covault-hero__button--outline" href="https://bycovault.com/خدمات-تأسيس-المقهي/c377551924" target="_blank" rel="noopener noreferrer">ابدأ مشروع مقهاك <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+  
+        <div class="covault-hero__art" aria-label="محاصيل كوڤولت، أدوات القهوة، وتجهيز المقاهي">
+          <a class="covault-card covault-card--beans" href="https://bycovault.com/محاصيل-الخزنة/c2102284591" target="_blank" rel="noopener noreferrer" aria-label="استكشف محاصيل قهوة كوڤولت">
+            <div class="covault-card__photo"><img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="عبوة قهوة كوڤولت 1 كجم"></div>
+            <div class="covault-card__caption"><div class="covault-card__top"><b>محاصيل القهوة</b><span>01</span></div><div class="covault-card__bottom"><small>محاصيل مختارة</small><i aria-hidden="true"></i></div></div>
+          </a>
+          <a class="covault-card covault-card--tools" href="https://bycovault.com/أدوات-تحضير-ومكائن-منزلية/c843725366" target="_blank" rel="noopener noreferrer" aria-label="استكشف أدوات ومكاين التحضير">
+            <div class="covault-card__photo"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="أدوات تحضير القهوة"></div>
+            <div class="covault-card__caption"><div class="covault-card__top"><b>أدوات التحضير</b><span>02</span></div><div class="covault-card__bottom"><small>طقوس الكوب</small><i aria-hidden="true"></i></div></div>
+          </a>
+          <a class="covault-card covault-card--cafe" href="https://bycovault.com/خدمات-تأسيس-المقهي/c377551924" target="_blank" rel="noopener noreferrer" aria-label="استكشف خدمات تأسيس المقاهي">
+            <div class="covault-card__photo"><img src="https://cdn.files.salla.network/other/626853354/b354022d-21bc-4b58-8768-ab759cc87588-original.webp" alt="بار مقهى متخصص مجهز بمكينة إسبريسو"></div>
+            <div class="covault-card__caption"><div class="covault-card__top"><b>تجهيز المقاهي</b><span>03</span></div><div class="covault-card__bottom"><small>من الفكرة للافتتاح</small><i aria-hidden="true"></i></div></div>
+          </a>
+        </div>
+      <div class="covault-hero__foot"><span>من الحبة إلى الفنجان</span><a href="#coffee">اكتشف عالم كوڤولت <span aria-hidden="true">↓</span></a></div>
+      </div>
+    </section>
+
+
+
+  <section class="cv-section" id="coffee">
+    <div class="cv-wrap">
+      <div class="cv-headrow cv-headrow--center cv-reveal">
+        <div class="cv-section-heading">
+          <h2 class="cv-title-sm">أقسامنا</h2>
+          <span class="cv-section-heading__line" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div class="cv-categories">
+        <a class="cv-cat large cv-reveal" href="https://bycovault.com/%D9%85%D8%AD%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D8%AE%D8%B2%D9%86%D8%A9/c2102284591">
+          <img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="محاصيل القهوة من كوڤولت" loading="lazy">
+          <div class="cv-cat-content"><h3>محاصيل القهوة</h3></div>
+        </a>
+
+        <a class="cv-cat cv-reveal" href="https://bycovault.com/%D8%A3%D8%B8%D8%B1%D9%81-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9/c1727788673">
+          <img src="https://cdn.files.salla.network/other/626853354/e2915a7b-2c00-44dc-90c1-a364aae8f701-original.webp" alt="أظرف القهوة من كوڤولت" loading="lazy">
+          <div class="cv-cat-content"><h3>أظرف القهوة</h3></div>
+        </a>
+
+        <a class="cv-cat cv-reveal" href="https://bycovault.com/%D8%A8%D9%88%D9%83%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D8%B2%D9%86%D8%A9/c418488105">
+          <img src="https://cdn.files.salla.network/other/626853354/b354022d-21bc-4b58-8768-ab759cc87588-original.webp" alt="بوكسات القهوة من كوڤولت" loading="lazy">
+          <div class="cv-cat-content"><h3>بوكسات القهوة</h3></div>
+        </a>
+
+        <a class="cv-cat cv-cat--tools cv-reveal" id="tools" href="https://bycovault.com/%D8%A3%D8%AF%D9%88%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1-%D9%88%D9%85%D9%83%D8%A7%D8%A6%D9%86-%D9%85%D9%86%D8%B2%D9%84%D9%8A%D8%A9/c843725366">
+          <img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="أدوات تحضير ومكاين منزلية من كوڤولت" loading="lazy">
+          <div class="cv-cat-content"><h3>أدوات تحضير ومكاين منزلية</h3></div>
+        </a>
+
+        <a class="cv-cat cv-cat--services cv-reveal" href="https://bycovault.com/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D9%82%D9%87%D9%8A/c377551924">
+          <img src="https://cdn.files.salla.network/other/626853354/b354022d-21bc-4b58-8768-ab759cc87588-original.webp" alt="خدمات كوڤولت لتأسيس وتجهيز المقاهي" loading="lazy">
+          <div class="cv-cat-content"><h3>خدماتنا</h3></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-products" aria-labelledby="cv-products-title">
+    <div class="cv-wrap">
+      <div class="cv-headrow cv-headrow--center cv-reveal"><div class="cv-section-heading"><h2 class="cv-title-sm" id="cv-products-title">الأكثر مبيعًا</h2><span class="cv-section-heading__line" aria-hidden="true"></span></div></div>
+
+      <div class="cv-products-viewport cv-reveal">
+        <div class="cv-products-track" id="cv-products-track" tabindex="0" role="region" aria-label="الأكثر مبيعًا — اسحب لتصفح المنتجات">
+          <a class="cv-product" href="https://bycovault.com/%D8%A8%D9%88%D9%83%D8%B3%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D8%B2%D9%86%D8%A9/c418488105">
+            <div class="cv-product-media">
+              <img src="https://cdn.files.salla.network/other/626853354/b354022d-21bc-4b58-8768-ab759cc87588-original.webp" alt="بوكس اللمة من كوڤولت" loading="lazy">
+              <span class="cv-product-badge">كوڤولت</span>
+            </div>
+            <div class="cv-product-body">
+              <h3>بوكس اللمة | اختر محاصيلك</h3>
+              <div class="cv-product-rating" aria-label="5 من 5">★★★★★</div>
+              <div class="cv-product-price">160 <small>ر.س</small></div>
+            </div>
+          </a>
+
+          <a class="cv-product" href="https://bycovault.com/%D9%85%D8%AD%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D8%AE%D8%B2%D9%86%D8%A9/c2102284591">
+            <div class="cv-product-media">
+              <img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="بن اليمن عديني من كوڤولت" loading="lazy">
+              <span class="cv-product-badge">كوڤولت</span>
+            </div>
+            <div class="cv-product-body">
+              <h3>بن اليمن عديني 250 جرام</h3>
+              <div class="cv-product-rating" aria-label="5 من 5">★★★★★</div>
+              <div class="cv-product-price">75 <small>ر.س</small></div>
+            </div>
+          </a>
+
+          <a class="cv-product" href="https://bycovault.com/%D9%85%D8%AD%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D8%AE%D8%B2%D9%86%D8%A9/c2102284591">
+            <div class="cv-product-media">
+              <img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="بن كولومبيا من كوڤولت" loading="lazy">
+              <span class="cv-product-badge">كوڤولت</span>
+            </div>
+            <div class="cv-product-body">
+              <h3>بن كولومبيا 250 جرام</h3>
+              <div class="cv-product-rating" aria-label="5 من 5">★★★★★</div>
+              <div class="cv-product-price">42.5 <small>ر.س</small></div>
+            </div>
+          </a>
+
+          <a class="cv-product" href="https://bycovault.com/%D9%85%D8%AD%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D8%AE%D8%B2%D9%86%D8%A9/c2102284591">
+            <div class="cv-product-media">
+              <img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="بن إثيوبيا من كوڤولت" loading="lazy">
+              <span class="cv-product-badge">كوڤولت</span>
+            </div>
+            <div class="cv-product-body">
+              <h3>بن إثيوبيا 250 جرام</h3>
+              <div class="cv-product-rating" aria-label="5 من 5">★★★★★</div>
+              <div class="cv-product-price">55 <small>ر.س</small></div>
+            </div>
+          </a>
+
+          <a class="cv-product" href="https://bycovault.com/%D8%A3%D8%B8%D8%B1%D9%81-%D8%A7%D9%84%D9%82%D9%87%D9%88%D8%A9/c1727788673">
+            <div class="cv-product-media">
+              <img src="https://cdn.files.salla.network/other/626853354/e2915a7b-2c00-44dc-90c1-a364aae8f701-original.webp" alt="أظرف القهوة المختصة من كوڤولت" loading="lazy">
+              <span class="cv-product-badge">كوڤولت</span>
+            </div>
+            <div class="cv-product-body">
+              <h3>أظرف قهوة مختصة</h3>
+              <div class="cv-product-rating" aria-label="5 من 5">★★★★★</div>
+              <div class="cv-product-price">تسوّق الآن</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cv-tools-banner" aria-label="أدوات تحضير القهوة من كوڤولت">
+    <div class="cv-wrap">
+      <a class="cv-tools-banner__link" href="https://bycovault.com/أدوات-تحضير-ومكائن-منزلية/c843725366" aria-label="قهوتك تبدأ بأداة تستحقها — تسوّق أدوات القهوة">
+        <img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" width="1842" height="854" alt="كوڤولت — قهوتك تبدأ بأداة تستحقها. أدوات تحضير ترتقي بتجربتك، من الطحن إلى آخر قطرة. تسوّق أدوات القهوة." loading="lazy" decoding="async">
+      </a>
+    </div>
+  </section>
+
+
+  <section class="cv-products cv-tools-products" id="coffee-tools" aria-labelledby="cv-tools-products-title">
+    <div class="cv-wrap">
+      <div class="cv-headrow cv-headrow--center cv-reveal"><div class="cv-section-heading"><h2 class="cv-title-sm" id="cv-tools-products-title">أدوات القهوة</h2><span class="cv-section-heading__line" aria-hidden="true"></span></div></div>
+      <div class="cv-products-viewport cv-reveal">
+        <div class="cv-products-track" id="cv-tools-products-track" tabindex="0" role="region" aria-label="أدوات القهوة — اسحب لتصفح المنتجات">
+          <a class="cv-product" href="https://bycovault.com/home-espresso-machine/p1384998850" draggable="false">
+            <div class="cv-product-media"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="مكينة إسبريسو منزلية من كوڤولت" loading="lazy" draggable="false"><span class="cv-product-badge">كوڤولت</span></div>
+            <div class="cv-product-body"><h3>مكينة إسبريسو منزلية</h3><div class="cv-product-price">700 <small>ر.س</small></div></div>
+          </a>
+<a class="cv-product" href="https://bycovault.com/electric-coffee-grinder/p1421650551" draggable="false">
+            <div class="cv-product-media"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="مطحنة كهربائية من كوڤولت" loading="lazy" draggable="false"><span class="cv-product-badge">كوڤولت</span></div>
+            <div class="cv-product-body"><h3>مطحنة كهربائية</h3><div class="cv-product-price">600 <small>ر.س</small></div></div>
+          </a>
+<a class="cv-product" href="https://bycovault.com/electric-gooseneck-kettle/p1036614055" draggable="false">
+            <div class="cv-product-media"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="غلاية كهربائية من كوڤولت" loading="lazy" draggable="false"><span class="cv-product-badge">كوڤولت</span></div>
+            <div class="cv-product-body"><h3>غلاية كهربائية</h3><div class="cv-product-price">234 <small>ر.س</small></div></div>
+          </a>
+<a class="cv-product" href="https://bycovault.com/ceramic-coffee-cup/p196693003" draggable="false">
+            <div class="cv-product-media"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="كوب سيراميك من كوڤولت" loading="lazy" draggable="false"><span class="cv-product-badge">كوڤولت</span></div>
+            <div class="cv-product-body"><h3>كوب سيراميك</h3><div class="cv-product-price">122 <small>ر.س</small></div><p class="cv-product-availability">غير متوفر حاليًا</p></div>
+          </a>
+<a class="cv-product" href="https://bycovault.com/tamper-set-with-stand/p824939581" draggable="false">
+            <div class="cv-product-media"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="تامبر + مكبس + استاند من كوڤولت" loading="lazy" draggable="false"><span class="cv-product-badge">كوڤولت</span></div>
+            <div class="cv-product-body"><h3>تامبر + مكبس + استاند</h3><div class="cv-product-price">117 <small>ر.س</small></div></div>
+          </a>
+<a class="cv-product" href="https://bycovault.com/barista-tools-bag/p406434335" draggable="false">
+            <div class="cv-product-media"><img src="https://cdn.files.salla.network/other/626853354/6c8370ff-6fd6-4356-b84c-6e031b874c0f-original.webp" alt="شنطة أدوات القهوة من كوڤولت" loading="lazy" draggable="false"><span class="cv-product-badge">كوڤولت</span></div>
+            <div class="cv-product-body"><h3>شنطة أدوات القهوة</h3><div class="cv-product-price">119 <small>ر.س</small></div></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-b2b" id="business">
+    <div class="cv-wrap cv-b2b-grid">
+      <div class="cv-b2b-copy cv-reveal">
+        <div class="cv-eyebrow">لأصحاب المقاهي والمشاريع</div>
+        <h2 class="cv-title-sm">مقهاك لا يبدأ بشراء ماكينة.</h2>
+        <p class="cv-lead">يبدأ بفهم الفكرة، حجم التشغيل، نوع الخدمة، ثم اختيار التجهيز المناسب. كوڤولت يرتب هذه الخطوات معك من البداية حتى يصبح المشروع جاهزًا للانطلاق.</p>
+        <div class="cv-btns">
+          <a class="cv-btn cv-btn-light" href="https://bycovault.com/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D8%A7%D9%84%D9%85%D9%82%D9%87%D9%8A/c377551924">استكشف خدمات التأسيس <span class="cv-arrow">←</span></a>
+        </div>
+      </div>
+      <div class="cv-b2b-steps">
+        <article class="cv-step cv-reveal"><b>01</b><h3>فهم المشروع</h3><p>تحديد الفكرة، نوع الخدمة، حجم التشغيل وأولويات التجهيز.</p></article>
+        <article class="cv-step cv-reveal"><b>02</b><h3>اختيار التجهيزات</h3><p>تكوين منظومة المعدات والأدوات بما يناسب احتياج المشروع.</p></article>
+        <article class="cv-step cv-reveal"><b>03</b><h3>تجهيز التشغيل</h3><p>ترتيب العناصر العملية التي يحتاجها فريق العمل قبل الانطلاق.</p></article>
+        <article class="cv-step cv-reveal"><b>04</b><h3>التدريب والانطلاق</h3><p>رفع جاهزية الفريق وتحويل التجهيز إلى تجربة تشغيل حقيقية.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section cv-business-options cv-business-options--compact" id="business-options">
+    <div class="cv-wrap">
+      <div class="cv-headrow cv-headrow--center cv-reveal"><div class="cv-section-heading"><h2 class="cv-title-sm">حلول تناسب مشروعك</h2><span class="cv-section-heading__line" aria-hidden="true"></span></div></div>
+      <div class="cv-duo">
+        <article class="cv-duo-card cv-reveal" id="machine-rental">
+          <a class="cv-business-photo cv-business-photo--rental" href="https://bycovault.com/إيجار-مكائن-وأدوات-تحضير/c920260669" aria-label="استكشف خيارات إيجار المكائن"><img src="https://cdn.files.salla.network/other/626853354/b354022d-21bc-4b58-8768-ab759cc87588-original.webp" alt="مكينة إسبريسو وطاحونة على سطح مقهى بإضاءة طبيعية" width="1448" height="1086" loading="lazy"></a>
+          <div class="cv-duo-copy"><span>إيجار المكائن وأدوات التحضير</span><h3>مكائن تناسب احتياجك</h3><a href="https://bycovault.com/إيجار-مكائن-وأدوات-تحضير/c920260669">استكشف خيارات الإيجار <i aria-hidden="true">←</i></a></div>
+        </article>
+        <article class="cv-duo-card cv-reveal" id="wholesale">
+          <a class="cv-business-photo cv-business-photo--bags" href="https://bycovault.com/طلبات-الجملة/c1153162539" aria-label="استكشف طلبات الجملة"><img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="كيس بن يمني 1 كجم الأصلي من قسم طلبات الجملة في كوڤولت" width="1254" height="1254" loading="lazy"><img src="https://cdn.files.salla.network/other/626853354/670c2539-5d66-45ca-a0f9-91b1c4d1d49d-original.webp" alt="كيس بن إثيوبي هامبيلا 1 كجم الأصلي من قسم طلبات الجملة في كوڤولت" width="1254" height="1254" loading="lazy"></a>
+          <div class="cv-duo-copy"><span>طلبات الجملة</span><h3>قهوتك بكميات تناسب مشروعك</h3><a href="https://bycovault.com/طلبات-الجملة/c1153162539">استكشف طلبات الجملة <i aria-hidden="true">←</i></a></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="cv-courses-banner" id="courses" aria-labelledby="cv-courses-title">
+    <div class="cv-wrap">
+      <div class="cv-courses-banner__card">
+        <div class="cv-courses-banner__media"><img src="https://cdn.files.salla.network/other/626853354/b354022d-21bc-4b58-8768-ab759cc87588-original.webp" width="1536" height="1024" alt="مشهد تدريبي لتحضير اللاتيه وصب الحليب" loading="lazy" decoding="async"></div>
+        <div class="cv-courses-banner__copy">
+          <p class="cv-courses-banner__eyebrow"><span>دورات كوڤولت</span><i aria-hidden="true"></i>خطوتك القادمة</p>
+          <h2 id="cv-courses-title">شغفك بالقهوة<br><em>يستاهل خطوة أبعد.</em></h2>
+          <p class="cv-courses-banner__description">طوّر مهارتك، وقرّب شغفك من الاحتراف.<br>اكتشف الدورة المناسبة لك مع كوڤولت.</p>
+          <a class="cv-courses-banner__button" href="https://bycovault.com/دورات-معتمدة/c1339573009">استكشف الدورات <span aria-hidden="true">←</span></a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="cv-wrap">
+      <div class="cv-quote cv-reveal">
+        <div class="cv-quote-mark">”</div>
+        <div>
+          <blockquote>“جودة البن فوق الوصف! طازج، غني بالنكهة، ورائحته تعطي إحساس بالدفء من أول ما أفتح الكيس.”</blockquote>
+          <footer>من آراء عملاء كوڤولت</footer>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section" id="faq">
+    <div class="cv-wrap cv-faq-grid">
+      <div class="cv-faq-side cv-reveal">
+        <div class="cv-eyebrow">قبل ما تختار</div>
+        <h2 class="cv-title-sm">أسئلة تختصر عليك الطريق.</h2>
+        <p class="cv-lead">إجابات تساعدك تختار قهوتك وأدواتك، وتعرف الخطوة الأولى لتجهيز مقهاك.</p>
+      </div>
+      <div class="cv-faq cv-reveal">
+        <details><summary>كيف أختار القهوة المناسبة لطريقة تحضيري؟</summary><p>ابدأ بطريقة تحضيرك المفضلة، واقرأ وصف المحصول وإيحاءاته لتختار الأقرب لذائقتك. إذا احتجت مساعدة، <a href="https://wa.me/966543038208">تواصل معنا</a> لنساعدك في الاختيار.</p></details>
+        <details><summary>هل توجد خيارات سريعة للتحضير؟</summary><p>جرّب <a href="https://bycovault.com/أظرف-القهوة/c1727788673">أظرف القهوة المختصة</a> لتحضير كوبك بخطوات بسيطة. استكشف الخيارات واختر النكهة التي تناسبك.</p></details>
+        <details><summary>من أين أبدأ لتجهيز مقهاي؟</summary><p>تعرّف على <a href="https://bycovault.com/خدمات-تأسيس-المقهي/c377551924">خدمات تأسيس المقاهي</a>، وتواصل معنا لمناقشة فكرة مشروعك واحتياجاته من المعدات والتجهيزات.</p></details>
+        <details><summary>كيف أختار الدورة المناسبة لي أو لفريقي؟</summary><p>اطّلع على <a href="https://bycovault.com/دورات-معتمدة/c1339573009">الدورات المتاحة</a> وتفاصيل كل دورة لمعرفة محتواها ومستواها. ويمكنك التواصل معنا للمساعدة في اختيار التدريب المناسب لك أو لفريقك.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-end">
+    <div class="cv-wrap">
+      <div class="cv-end-card cv-reveal">
+        <div><h2>كل طريق للقهوة يبدأ من هنا.</h2><p>اختر محاصيلك المفضلة، جهّز ركن قهوتك، أو خذ الخطوة الأولى نحو مقهاك. اكتشف ما يناسبك من عالم كوڤولت.</p></div>
+        <div class="cv-btns" style="margin:0"><a class="cv-btn cv-btn-primary" href="#coffee">ابدأ الاستكشاف <span class="cv-arrow">←</span></a></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="cv-footer-v15" aria-label="معلومات المتجر">
+ <div class="cv-wrap">
+  <div class="cv-footer-v15__main">
+   <nav class="cv-footer-v15__links" aria-label="روابط مهمة">
+    <h2>روابط مهمة</h2>
+    <a href="https://bycovault.com/about-us/page-657349798">من نحن؟</a>
+    <a href="https://bycovault.com/what-we-offer/page-172820140">ماذا يقدّم <bdi>كوڤولت</bdi>؟</a>
+    <a href="https://bycovault.com/return-exchange-policy/page-1112159340">سياسة الاستبدال والاسترجاع</a>
+   </nav>
+   <div class="cv-footer-v15__brand">
+    <a href="https://bycovault.com/" aria-label="كوڤولت — الرئيسية"><img src="data:image/webp;base64,UklGRl4ZAABXRUJQVlA4WAoAAAAQAAAAdQAAdQAAQUxQSFcJAAAB8EZb2/K22bat/TiO05JjStwwlJk5ZWZmZmZmZmZmZuY2UGbmphAo13ZiSg1xJJ3bD52SnPbsuP5dIyImgP8r0v4znFE196nHPTrpm9uOO3YoePsv8MZSj3RLKhQKsaQZt82Ls7Qzx/p/Su3P7LFCVTZbtdZuT3dJny2Ct1SLaPhKemesUaZt/pn0NM5SLGJL6dvRACufdNnnn513ymIASzWrbxRRakUcK+2EY763et+6fpvBQ/e97oPZjwzCc520M1FKRZwhLYrV/dS2LRiA4Q/pe4XAatJ2+FTy7CE1wIHaAjMj0Zyxl1bFlpYWNksjW0qaBx6fgjnKDrj2M7GV1JvxKRSYobVhwgQiKrXAb6fBdXoNlz6cr9fg8veJ6MdA8y7QrLGWOpaNlbWVewj0a0B1LKE/cGnDaboG8qMdxeagZuToYUPBGYBt9jN8rEUtdf7UEI54DQPMGHT9c89888xPX0/6dAPwhqNpCTbUk6SszafPoNDogIgRE3XUuRRXr/eDTgwYttaXuK7OkDJcoN1YdCqGea7SrAxauMgbyyi+uwZHLsMbGu1S5k4tz3WnG3i+kbKeP84vAreA8l0Ar63HdjqblG3/G75cDQI/SjtivH1ZEldKoxzYkTexqa5OGZvZ65gRzPOQcs0EuPPrBEe7jsMBBz3EorohZejo8fxCla2onE4BbNk+DLCx+pYqwNV/TkNhQtp09nCEroCf87FGGthIzV/EBGUCgI3LrVkdv55Cv6ozLKqCmimiZxvABmhrrKg6p0sz8atp09Eb6IXbJb1L4uNvAlz8KZ5iN2wKDfHradPZ4/gjy48FaULSbrNx0JvxJA/7noZ4fNp0dDuaMlUzJV2eYHVayKiqMysx4gca4glp05kwXJJOSIDfrwDDKPUd9fErKXZuiRPbKX/UNGoL6dNlNGUaY0kPlBiqua28KdTHT6dNR4+jKcNkSR8nOaZfSnmTqI9fSpvOpC8kfZoEx7VhZf1AQzwudbqL7BBJcY1LcIO0gCtnxGTq4/Gp02VFDXFBWoNE47v7KXfkZAamT0e3ozljPCnpOawIDu3GlzF8MvXxuLTp7DKaMoRMIZdXvU+wBi1rCR7csEnUxS+mTrfRlMVYSTk9iyuCKfeSfPJeDPuORqVPl/FXFjwHaJZWwCUc3ZkQsrOw4T9RF7+UOt2OpiwQsbliLUQomkfDDGeRFnWM+DG1MgARQz+VdsQczmkdjO0LC2MM/5aG+IX0wnlWfU8t+4wBjllq6MWTH3PmYOQP1BbGpU6X41eqisAbjTt8OO2db6befuOP+9XhDXzdZ9TmU4gzdBGlDcCqq6sAM4rfzK9WXUidjm6+1ZQy+nNATndF6dPZHegmzAk3+CfqCxNSp8fxR7A5waBp1BZeSaOuxbH+izj+VWoL41OnG7yGMQd37wBfeCVtOuK/Wn5sm9nU3JI8vaW5Jbm5pWV6S8tfuaY/Wlo1IW3+aGtra5vR2jYHW1vb2tpmvpAyEf/YKF3+97QAjStst88281SBszQwV2Q2R8wY+MSkJw46YL9TL+j6+ZA6LPzbvDHw3Puu+HB1gvVfYPALuizCwGBsTuO24F8/39cal+U5fZfx/Raxr7QMwSh2TMtprX/fyToNH9xsjaO/A89JG+MpuZZ0OK4yw/+zljuJCLL5fC7qJ8/Vyn2CJ9l4Vy8TUXEYuhn2T3IQAZmcenxCqMhW1Gwt7ShVp+l4KjXPmYVa/oXZvHptwUenfXoUUQWeP/OagS/FuRrqrbLGezQ7d8eJl1149oWnHnP80YcfctDee++95+577Lf3XrvvsvMOO+y0/bZbb731lluV3GLzTddasCbJw1nSBVRomyqOn6J0QBviqPzALvUVbrr3/gfuu/ve++994IH77rjtlpsuu+iSi845/eTjDjnogG222XyzDTdYf/0NEjdcf911xs47ALI59TrcXIonV8Lrkg4qww56h0BJcwnOIvhMjfR3ZnS9gRmljUSDbF69rgr+1vSEUEZ7QVraSvE8VSSbscgFN4/74MTRBAvDjvYXv3HXY6MJCe6CZ6956ZkNYacPb9rlYT2zBLbAAcsvPXYAwMiDll16pbmAbE69joNPzmnWcaeddtr5rtRISVqR0sF7kgMDp36yZM3c20uf1+EMz/GKtTRW5LlVz9Sw7J/dw3GsLY2lcStJmxTV7Crp+KK8el0UmKlWQgiRL7V00fJlGJYUWFfPEPAMUkGDHVjE2epTXSgybvsIt6IUguH5Ku7AOF9aEzDjHOnAUhD1qN1R/uJFK5ZRpi2lWcEBxvEqtOGAiOZC/BYOcEF1nu20AQbGF5oMbJYE3JiUyZVqtQqqeyQtaZU5/tKXGIAbrljrU2zLa5YWMzAefR7jqEfw4Gy4tBqwY3n7Atl8qXZfATMK0hn0447SPiQa06WzEzxvxvkmPD4jc1hEBsisne9cmaiiA8vqVbur5Hopfrs/Hi7okCRola5MwA1Snw7DePkmwBz1F794zGm3rQAZyrtBOqic0K0OX4GNUL5QqHaVNUmHl5osnZZkXKdcPusbhYFl39AbQx3AQ1GAnco7sILOirhXBR2HVeDpjbVXqd+kvZPwYWZOT/LBORjO5fQJ3oCntZvBjtIaZexTTlVcaHcVEJimvny1Ky+w4fXSLUlGW1zwLgk2Up/WEgG4QFrJABqVa8Wxk7R6GQeUw+pqtUpw/jcVviFYGYFbDt9X+d+whOqcLqR0YEqc1w4U3ynVesCYlNd2sK20ggOsaN+iXILnh3xNUUQow/GK9AH4Eo4rXsb35jTCA8ZumkpUCptfs/8kFJ0rbWtgtvndfbNbcEtIFwEWGtWr/cEyec3EgGka5KCKAzOlILDSJPXtBJaw1uQryLCgNBnvnNVqIsHKcDyhVQ3AmKE/MWzeb3la2g8mqBuMRaZuLB0LrlpSHQa/6QJCxDmi7GAseH2zJl5w7TWn3PLW3XMRcAx8W+3rzrvIKd274o1yXd2v+CI8H6ntxF3OfiN4vs7r0mW5MxdfcvKj4zI13T06oXHj9t5Zfc3bOBgr7RqyT+nF8sAMwnxHHX34aoPAG2COAXsefeCRa4CnfDM8ieYZvvsxJy5PME9tNHd9gFXP2LqG4Ah+nuw8A3wIDfMYgZrNX3rr7sPqCRUUG8VGaSPRqNiwJDCKDTAAwwCjHw0DDOP/JgYAVlA4IOAPAABQPgCdASp2AHYAPhkKhEGhBQM/cAQAYSyojuQ3pjMyPFbrOw75MfJ3nv/qXqA8wD9TvOk/Wb3AeYD9uPVf/2nqJ/s3qAf03/b+tB/w/YI/uv/I9gD9nPTX/b34I/7L/zP28+A39rvUA9ADhHv4j+Ev6geNH8i/EL9xfWP8P+JflP4nf1X/ef4v3wqrP9m/Cv1IfVP5l+Mn7tf7b4V/pvgD7LP1X8a/gC/D/4j/Rfx9/sP/i/1Xs5/m/4u+FIAD8P/j39F/sv7Af1v9pfXX/Sfx39wPo7/UPx0+gD+Gfxz+vfjf+/fzp/Vf6B4vvxP+d/3P8jP8B9gH8e/kX9r/sf7Jf3H/8/ab+df1X8iP7x///dT+T/z/+6/4L9hP7b/+vwC/iv8a/q39b/wn+b/sv/7/2H2perP9c/YP/S35/zrLLSy0sl1lmtgyNnyk+Co3d41b0T9GCfRRMjHxfCXsDb2nXz+2JgH4oiUv8Y7D/orYdKJ91KZXqcmkWD5fXlXZA5kwdCJQQWYiNnaI/3l1tqYZF6Kq/DW9quS7eiTIb9F7XvLzl6c3cVRRqz4e4t7X5K7fR/m/B4UT0Oj8DS1fJvun679FqfbP3WC+tCzWTc4S1+CxkfCn/HpjMoTDX72+fy9pxMD0om3y16/WxNv/hlmCFkZaxU4erfq3tAAA/v+rUICA2Xw/+HlTZfg3KYcQc75lm8Jp8O9yV5eFobOOrDegkELd54+MPtXAPlkR34b/1s1l6T3odcToSUI1cfaFoNFo6uBpH9f5o+tilLBj/Tcd+4XfSLIVDgKQjPgfeEjUoaRpfF02hc4aJBeV5N9D6heGg2kZON3acLuocK1+T0fTa4HICLepLDILxj3RCyhS6uAAFJoLz//ewTyZWpKoc2+x8PhCppQi84ee0zk4I12N2i/gS2+9kLb7c3ge/bYvHPQ7a5I5iQgDsld6KAqkTTy/m8/JPn0sNGVyYDknhknHNX1Xc5usskIZlctXkaG9JoIUx4tefjit39IrxSwTPw67EnF3qX/KWpSmoNqfo2bHZf1NTr3J2fpuF9s3yUqoIC05dcqxc3b6d5jvkGBRL+JCpBvzBXbHNotAsWThH3AHWz0DJHwDlISYSRqtb3jNHC7wxMmc/cVMTukf/OHYEFtjWj49Cb+CFY+k0u/s7V+m8pP2XxTK+xv+6JoJdgkdt7ZP29DrhK6LavfBv2RbUGlxGLzi2CeVk6VcQoT7XeiNASbTvw69PAr1QOti6wgim5lEislz5eCq1pBRpJNZiDgaM+PkDq3vIxz5KwTWmhE7/IG18TWOCaPRqoyQyIS+ClYpTencoVYMPvO7KF2sAl8UGo9VL1BhHyTrx9+NjEROQHMHmkEA+OpLuGf0EhPl4StPntnHos9gsRYguV26RjbxNkp3z/r4NwotFk/+nsffokjizTTWevp3GPJKc4/w3xgl6PEuWRaWpZVGmrFaK3jcDeNAlt2Ooc1bJa/uDANOkbsm1BFaQWnE6fwfEJDGf2eQryOC5tamrlcsIMbrvruLWF6huEPnXK7mPy/yEHT6Lo+TsM1SqTdpWGHf1xNEMJINoieNQYALdacns93w2WMttkj9tr8qtP3UT998ZTM/rYsFXjhXCFaLc3aNYQHUOV5CCoF/2KIIGfSQBPv4QfvJG40vv0G49kd3mfu0/xcSCaC/vlevG9bwaQ930ZumVA/jHnKQ+qcIoo8e4hiuW/LXCW4TjF5rQEIRpu3Dngy0gTZhDCZIxRCbTZbg9lXKIBcnsEG19ml5xww+flkraZfPZf7v3L1e//uDPynsMIoYCiCUDo1Woxq7PxAJLh/qAPMVbsl88uuzxLtH/3nog8oR5oFZJJOgt0B4YghVL2cOeld0x5KJvBt45XavamkouakWhqH+fMrlmjcWJhrxk+FPgnEOOXzCOSMyIRbuNt9moUOtvGJvp+J9B3T1DdyciSIsNQpFwqbdOhg7T024kwseZr4hkqZ/xkmPgUN7GGa5+IImUjN8tMSafBWR5S65IFlYXRN54J7/RneIcA3VxJADMpSGvVFBeNdrSByHJmw8xg6rhLQENQWWS1O+ZesMttZoExXaAZCDxNsRBZ4bK9VsM7sHvyDxKcVpel1lwrXcGnfB5/WGaT6BB6ZHzzBoC7TWUDTwXLE5z3yWpAS8XhraCOfBgmVd6yTBefGiZbGFvyVFz56vLzED5/Em2KokTOfbU61gpVV8y5KpWQOo+SxGMOVX/k/TbX9ZJI4p6xRSUx3JQSnU994b19wXW+fCvrWGAc/OGLgIhzxZp4akIKEaO9f/IBoXBXU8vZj0l6VVkGrCilYQv1Z+FqaTk6AzgmgXhxgK4yIHyPfrTWJL6SJz2Vw8mvUhb1I/9jdDxj7asXufT0Wn3fjtPboXBwHhYw2Mzr28kRWHB7FTFw8HRYNTIAdIe0x0+GVqoAHax+PiK1afIvbTQ783CNnZxH4F3RTsdVhIoM0nMV6osGz3aa9laleaZdyZTwvbyjdkmqgRrDyYiV+U77ROV25pTXZZKlU8AwWu/9cTFAJX2ivU35kXsg5BYygmKZz0Yk+EZjJIG4xdguNCHVqx8SMiS3ieZ+n5UsPLTdthUslq4aJgwBr9X9Y4loX45hD0PMad16IEb9/R2qiQPNPw5O0VwsoKMxGujJ+q9beGi4er9rF/nmwTecGc8m740j7HuV4r6gs1/36UInldaqChINKqqsyq3HjEkWDJ5GFUuxdGEVw/Vi2RCqQ39rGG8VBe4vK2LsnBq2gCBiZ/BG0gvpvhMhhrMN1U9+j4k/5leWwbmVXnjbhErZD/cEnTWoKxsIZ39699u3YtoGeeS+lgPv8Hv1EDn5EyGatTBgzGED76cH8GJzkIkKH+5ot3cBrI6ZxOoEAP8K3tkW0+559ollZTmClEDXl6vXODYnJz5QNsx/xNwd9Y7LygWr2nb1OyUR4tDA7kk1ND7kL1BXv50HOmCOub1Fs3hW3WGxcP/E0NLqfvBbC76jM0Mg3isyeXop9y7Otne8HPiAnalBS9zqLBBuP5+AIFh9IQfL9NkQL1CgpgXmgYDVzm6GxaHzkkBB68tX+c6TIhs+6xVkTp3pCtCHTnr014N/3dYutdv2dAPNZLoAKZdOfeZnmN79hDPbRqmgY0szR1UcS13fAiTPhku+hM2fbVFZBHaY8IxL7rGKRP5Mx/IUYWwCI+ECHWRATl8AGq0jIkWHNidumn+H8gNm1eay7T1WfOaFbBGrT+ffTHYGvBxAKPFTraHSDdlPqft4fT+UMDOa82hQ+Yyxu16zFrx1Oqh9p4+irRUcMuiHbCwpN2Y3LH2gi/pLK0fiO21AyDYme/fzqdoi+CkSEHORhEcBYkKsUgHvWRL939F73m43s5cmKSevPCJrFE+sOAUJPc0rBw/aIhyYweNaSV5Qe7+/jz+w8ahNcZ16RGqTg1UaX/Zik/MKA8AS7WbblZuZyCEmZ8ljCtW5KlQCPZMnybBjrbCC3WJrry4RvTdwXW6lxFFB+OK/PcUrKJ5KKVyNoxt53FAw4+gUbE5pv8wdta5tUkQ258R9eZAaAONFZa08z9rfUyVweyVORTHC6jdyf2xj4+1FYpxfq2f07yIdkknXveLXYxTl+sPEVnWI4R5GQ/XMu+nkV6nfwNvjdyTLm33ijvv2105FvGEAiMPHy+VrtPTIh6CPg/8cjgjUMYLIC+B4bTzIwgO+Z4c7sVn/iHU6Ba+X7KD5ewQOYXHlqeTu8a7ZWUwrcDFpCAb2Fo/nXys9wpeIHLYelwiHI2J5jC3srgm7sL2MABK6RhmHcVBnxE0cy6klcm4tNUgqaBy6w2EzSJHi4QhDyDK3zfxIyBGxHq/ZM97cPpGKFynXO/lw+9/SW67pMMNVIsO4QrB5MSlGWIC37/0AsEV80cr+sicZIYVJLFtIQcmSqC6wDPN5x7jWTSsi4EEczhMJZ/EcEsplQYC5myiY6ncozMbD34ZIwXtOs+5FvIPwb/OJJ6/P28Gnaj/G2/EeS6ggMjwFq5K5wMQiJ8P8WZhr+cvem1OFzThWG9CX+D5Z6RNfIaDBCvHECODQzwseF651SRhouWjqEj8GUfoKE2GRJ4EmekXQFhfBbEmPwnpoymnpwq0NvAr89uqz0Z6/n1D/6cnbrKBj6ytlMSryxwqG1Af5nzz4W8SAYwARrzSrTxtgbgJIHG87NeGLSbSHsREnN7WZ2/xZRwMcAfv0rYDNEVjOddkkqsEsFLf/AOTJM6kaAQ3ZyR6ZIyXbnK/PGHvG8NeNMunUYJ+M7v//zka1S513iw3iJiukibtEYfNa4mZlQJAMSkE1XO+dM8z8vF26OaTsOvoyP3dK4a8TZWKp4UcKvAP6vOIq7Np19mwgsKnHChpi+Md+CK9Xt1zGY+AyYYstRIyqxXAePVqph8u9wr0Ik04U6u/QnultST5ntT/jFu/NkUnF0fp9ddOIj6M5PuIz4dPySyM0eXvP0sjUmqmqWidWvDIiI9Ks7nlMeub6C0FBhEuC+1QWJqhTsj4kEA0IBJTVTDtGUStF53nuPq5YB0bOlvbYYE9CjICY8ib5rCVEv67AyG6yO2Vq/nn3W0T7H+4PUUGQ0zjHiKVC8SgjVW0PITi6dy4swnJArgyRmxe6gdvSlzW7vBpIgLKvk0p3Nl/gH4KxM2zyGBjGWPljZAX9ATc0eykJ6g9Flu+o0s/5MHhhUzygpRxnz1rjyB/bhFaVgTMPPAlWO8J9fYv6a2Y+COk1MVqrHwso2keQngydBv2X+ltPB4zRNeb6Q11XenWEnH/tOjZ8whALCT6C8VT53ff4ZRNZxLHUkGAAt/srLrPeypqtyDoDNDTJpECmPTbYPQ9UHb1oiJ2j/6Fkm8EafELL0kgjwOTpU+EyxF+iVRgyb6eTiCrN8Ni0hoOCmYSMgfcbZeGKaxWD4G/AZKnoPBIak3VHammvBnO4gwJd+MMC0KmkvpgIBrYr6pMHZXAHdHvCKcpkdbIGK9n40viNiPqjj81Z0yrJHAztGElXq/QGibdZAJVccdQVyZtUfv++kpfL2O0XYXAGVRctFkEVXAF5B+HnTKlF6rpinVPGtQca5P5oo1yDZ2RHP/7TY+NZbI0z+YoVQrb7R/RPiJ2OtWSk/j1Q1OLjkpd7AqGbOnHwrTuWiNziTSvNmJBAD0qxrxwKLiPncDwX3r/0lHodKuEbhqy0UtdWhjooDOmcnGPeZ8EYIpuSOmPRmRD0Iq2h+NKk90ria90CzQ+1wSeNJNRKzFrd1qhtKk2I2eSrMG35U78SOagY864JP6qJDws+aK8zLEvxhjDy+qN9zsMaLEGly/vuGxhZ/HO+TYQdu+z2vY/W6QBcjHHfRYK0vPYwph5y168XJt9oZ0SNCN2mPj/qu/O8eAAAAAAAAAAA==" alt="كوڤولت" width="118" height="118" loading="lazy"></a>
+    <p>كوڤولت، حيث تبدأ حكاية كل قهوة. من الحبة إلى الفنجان، ومن الأداة إلى الخبرة، ومن التعلّم إلى الاحتراف — كل ما يخص عالم القهوة. كما نقدّم خدمات تأسيس المقاهي والمشاريع، معك من الفكرة إلى الافتتاح.</p>
+   </div>
+   <div class="cv-footer-v15__contact">
+    <h2>تواصل معنا</h2>
+    <a class="cv-footer-v15__phone" href="tel:+966509664603"><svg viewBox="0 0 24 24" width="17" height="20" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="6" y="2.5" width="12" height="19" rx="2"/><path d="M6 17.5h12M11 19.5h2"/></svg><bdi>+966509664603</bdi></a>
+    <div class="cv-footer-v15__social" aria-label="حسابات كوڤولت">
+     <a href="https://www.instagram.com/covault.sa" aria-label="إنستغرام كوڤولت" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r=".8" fill="currentColor" stroke="none"/></svg></a>
+     <a href="https://www.snapchat.com/add/covault.sa" aria-label="سناب شات كوڤولت" title="Snapchat"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.8c-3 0-4.6 2.2-4.6 5.1l.1 2.5c-.8.4-1.6-.8-2.2-.1-.9 1 1.4 1.5 1.6 2.2.2.8-1.3 3.3-3.9 4.2-.7.3-.5.9.3 1.1l2.2.7.4 1.3c.3.5 1.6-.1 2.5.1 1 .2 1.6 1.4 3.6 1.4s2.6-1.2 3.6-1.4c.9-.2 2.2.4 2.5-.1l.4-1.3 2.2-.7c.8-.2 1-.8.3-1.1-2.6-.9-4.1-3.4-3.9-4.2.2-.7 2.5-1.2 1.6-2.2-.6-.7-1.4.5-2.2.1l.1-2.5c0-2.9-1.6-5.1-4.6-5.1Z"/></svg></a>
+     <a href="https://www.tiktok.com/@covault.sa" aria-label="تيك توك كوڤولت" title="TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3h3c.4 2.6 1.8 4 4 4.4v3.1c-1.6-.1-3-.6-4-1.3V16a6 6 0 1 1-6.5-6v3.2A2.8 2.8 0 1 0 14 16V3Z"/></svg></a>
+    </div>
+   </div>
+  </div>
+  <div class="cv-footer-v15__bottom">
+   <p class="cv-footer-v15__tax">الرقم الضريبي <bdi>314760549300003</bdi></p>
+   <p class="cv-footer-v15__copyright">جميع الحقوق محفوظة | <bdi>كوڤولت 2026</bdi></p>
+   <ul class="cv-footer-v15__payments" aria-label="وسائل الدفع"><li title="مدى"><img src="data:image/avif;base64,AAAAGGZ0eXBhdmlmAAAAAG1pZjFtaWFmAAABaG1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAHBpY3QAAAAAAAAAAAAAAAAAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAIAAAABAAABiAAAAfAAAQAAAAEAAAN4AAABAwAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAACvaXBycAAAAIppcGNvAAAAFGlzcGUAAAAAAAAAOgAAACYAAAAMYXYxQ4E/QAAAAAAQcGl4aQAAAAADCgoKAAAADGF2MUOBH1wAAAAADnBpeGkAAAAAAQoAAAA4YXV4QwAAAAB1cm46bXBlZzptcGVnQjpjaWNwOnN5c3RlbXM6YXV4aWxpYXJ5OmFscGhhAAAAAB1pcG1hAAAAAAAAAAIAAQMBggMAAgQBhAYFAAAC+21kYXQSAAoGH9V5lL1AMuMDZYYt+4BBYCDAAAAAAAACCAQRAD/yalSk4t0uu4aTxG4i5KsHjUFLFVsUv/oAs7FtWQl1VHx5lk745WSemBUjoIEdgpNN4XZhLsQO4/pm+YQWMbpvtfVrF8wPNX/LV+YUqTsJYO+4uILuOk4TBJpOWZGAEY8C2liH744bKc6ewNxHNIfiGdvKOQiMmo9Sj6VckK2lJChxdkkrSncy80lXN3b8SwkPaivGNNcCUkx51J9rHrzE6e/HTHFq4rFH+HNKf1dkodjv61nRCIwAN1KXCteHFKM/3Rexb9OCLapEnqleCISua4auEBWEeoNWiE1tl4QQchfGrphv74FdyQrYrsSgRcAe9tfRoMWvSPZGGDITXGqJ/Zj07+WStYSB50heWKjoCHID17oxgYU6OUEzWY8zdAJNhV//rOREisIgpW+dP3hSh4xhSspKovhIf9OmcBntj/7v9JIcfFScRDmNWna+fkYXkKU6Shw3gSCAHTxdJ4UxJtZTIp/R5ZPjUJ9rPvB3/Rc47U7omvFhMtY8904U8o383KSVKEcz8Ns1Q2ugNOr98nM/hXaBLVwa714UQSVZb1OlHbQ6g9GHm2pcvYM2lsBSuv/15H4EtMeLzn1u2tiIAa+XFgsh+wu/LZanbINcEgAKCT/VeZS8BDQbQDLzAWVyL0MnFfz+YCBAEHAAAAAAAAEEEEAggioACBaDYHx14n0NGeJ34aq+39ZJrLhd+sszWF9eq/AsiUqDIbfeKzjK10+HH6Q3aYT+cFm9MboSIwVxwwU2ewXgyRPgjYpTm+qjVTLgaIcGhgQLrH5EGB8Ev4myFZd3Yj+0MsfW40/sflm3+Cv8xwvar27rw64ianDXuE0BhGltQLPVe29Y+4sUHzhd8xNbF5zetV8S2kbtmC6693SD4btLu3xGi62Ye11L3yR1VPYdXb3y7Qs0F3+zuRerjWRRkKNAGuKhjUZKdp/w7Lf9h+8BzMQ31aYioEDoaA==" alt="مدى" width="38" height="24" loading="lazy"></li>
+<li title="فيزا وماستركارد"><img src="data:image/avif;base64,AAAAGGZ0eXBhdmlmAAAAAG1pZjFtaWFmAAABaG1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAHBpY3QAAAAAAAAAAAAAAAAAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAIAAAABAAABiAAAAYIAAQAAAAEAAAMKAAAB3wAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAACvaXBycAAAAIppcGNvAAAAFGlzcGUAAAAAAAAAOgAAACYAAAAMYXYxQ4E/QAAAAAAQcGl4aQAAAAADCgoKAAAADGF2MUOBH1wAAAAADnBpeGkAAAAAAQoAAAA4YXV4QwAAAAB1cm46bXBlZzptcGVnQjpjaWNwOnN5c3RlbXM6YXV4aWxpYXJ5OmFscGhhAAAAAB1pcG1hAAAAAAAAAAIAAQMBggMAAgQBhAYFAAADaW1kYXQSAAoGH9V5lL1AMvUCZWox/MB+wCEgAAAAAAABxwQRAD57e6CicU8Alzl671ya09Q+EeIx4PXLDE27e5FgHIC7b4OaELLQduHzG1dlqJmmmDIR7H/uiu8WmF+1NZwK2fnb0IhX2iF4BbMaxTt8ZFmP4iWapc7cZb/J/HCTW+beDdJLSW97uh9HGxS2Rgj0cugo3F/gi/iS0NWa5ArHR0fC1IpqFlBiQL48CWOTHy3JQVplKvaCSmRaIRjJimYBTtvoHijLOm/dqi+1YGHrq60X6rs/nowXd/xdUCym4mqjrnCoT0MS5KNVgHGsHPgfElzTojjsvkK5UKXf42uaIs3fl5pkfZu6RyZzrChFY0UB8oqp3OC6JZMfARvMylU0jN/47nTJGi7VeGU9rj6yH4k7aNPuCKKLIRiE/Va+hAo5wWpyFN0qSKQILmfm92qJ0eO5XrBc5FOFPg5z39GxLQfocHis2k2/waFA0YCH7avM1LLFl2+tW1TZRqdOYOdZySVzcBIACgk/1XmUvAQ0G0AyzwNlZjNFKRf8/sA/cBAACDgEIgAAAAA4444IIIqACBbvG4q7uaMe8qlUwauvvZHV847TvSowMhp6Bj++z4N72a811ml9hD88bGMWn9CufzZlsQABqzLYH9i5EPuzpCXEwbWMkliRMrUFrtpDa7pbvbOUt3Aef2Aa3tm3FYsujqpx9kc5RNrl1I76Cy4b/13PTvheA2VSWeaUksGgze3kJbMilEGllAtPVBxMgpwzXNi4iG4sB25kmDNtqaM6wjAJuTrqJIB7JgrfmjgrD6Pq2x79ziv7WSnBxZpOUYZOZYC3vQzJ3CD8PU5JC5dkVAZx3LWLR+VRmhqiYX77csP4ruu1H4Gca1lxhQzamH61RbsqJBA8t2MVXjeBGKWMr7O7snBW/itFh8b1jl+7ZAZwni4Aqu+YF3xT9LFoPE8CPppJysQuc/iKD4//C/G2zT2e2KTgptov7IlCAX4hG5PujYhQWNHjKvu6sayxU7ocaVHyePq4MCeI3KB1MOoXC5jbk3xqvBC2mXmDFVgGDXyjlYzYnuyYe9zGejC6Afs2S7HmHtwpuk0QRiQnggnjoOJRPQQggwiKVAD9+tJUTPc3F3fhGw3fmFPo4kWMiyA9LQFA" alt="فيزا وماستركارد" width="38" height="24" loading="lazy"></li>
+<li title="STC Bank"><img src="data:image/webp;base64,UklGRvICAABXRUJQVlA4WAoAAAAQAAAAOQAADQAAQUxQSNoBAAABoC3JtmnbqmXsY9u2bdu2bdu2bdu2bds2ttUe5jzn3HW/ICImAJ+X0/cfAcP5x0wh+fk/Vv6UPm6H0DT/VMDMEcNhsNnNLQZ33Oh/eBedOh8SxBs3YXR1i6tT2XEbq5ApJD8tGpBy3v0P9xamI+rhu7eMj7pDhoWPvrw9UMlQXvcfaAbJ581ZFl7R++vnkgPKniYkY8PgUpleSaHStzx+/jKfRdVfMh0JVPpaIkf3H0XJ22pMSBv39y64vzRPEbz6S33W6He9JA38tdbSf+y8MN0ZPKZY8h/S5WkbQqRaUOU18LJnt6+zu3xo6/5WHdfL5ikCdwdW4po+poXC5RIC8f21ApgurbJAg9D7TaCKf+UikyLz7jpABbVz/66D+33LlGGphn5JOUn6eXxWZYwp/LUGLFfknwIggwModP/undN1KHzz6rIjNZwnSuE8WDXhuTTsnutZGilJl5IDKU1cD/TUbTC12B12AGcssGC1gM2C1QIeyNRn63tp019wSf4pDek9+LbMkPIQ65GeeyCF2ThphQVKBzzt4JvP+lwrUakPOsNfJHwrXR6/0l9q7ptqPyR/KawykDJUGwAKv5HpOHycd9d3/T5YEiDe5sM9DCSb+yry95m6+BhWUDgg8gAAALAGAJ0BKjoADgA+RRyKQ6KhoRgGACgERLYATplCPa/a/xJa4B+pOWQegB0pBEOi/19YdxUW5NPPYg+WYnIAAP792zZBgML6UbUZf+kk7/d8Rsv/y1l1f2jkHzj8pFu8TZ0pn72hv90PESQzqn2wGw61i2iNC4dE0bcXwc08J1ftnC3Hwbv3RKJ+szIFdPkITTsZdCuXTFBxt/+YB+1nX54VH8sv35RKv1T8DHtYokZB2ExAgruiUSkSHfpPHdM/qIkQ4rvn6DHLLyAQP4z+1fQwVI7LKJf0qCtEegmc4lHvlvTzRS/QvwkFR+Yd3ki3PgAA" alt="STC Bank" width="38" height="24" loading="lazy"></li>
+<li title="Apple Pay"><img src="data:image/avif;base64,AAAAGGZ0eXBhdmlmAAAAAG1pZjFtaWFmAAABaG1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAHBpY3QAAAAAAAAAAAAAAAAAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAIAAAABAAABiAAAAKkAAQAAAAEAAAIxAAABdAAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAACvaXBycAAAAIppcGNvAAAAFGlzcGUAAAAAAAAAOgAAACYAAAAMYXYxQ4E/QAAAAAAQcGl4aQAAAAADCgoKAAAADGF2MUOBH1wAAAAADnBpeGkAAAAAAQoAAAA4YXV4QwAAAAB1cm46bXBlZzptcGVnQjpjaWNwOnN5c3RlbXM6YXV4aWxpYXJ5OmFscGhhAAAAAB1pcG1hAAAAAAAAAAIAAQMBggMAAgQBhAYFAAACJW1kYXQSAAoGH9V5lL1AMpwBZWot/YB+wD9gEGAITAAAAABxwQRAP/JqVKTf85uLFALCYJJ4PAwDCjGbprDwhpKpX2VDHaF9tNJYvt3SNTbDGLO5jVr4ixEy9S2VOQ0eIHre0292W96kcdeG4aCip0qbQgJvmmu/0O9SFdF1FvvVmya8gKmTqmtwYo183VismTv4stsm01NRZlApS5PmdvgMayG+zF87sS4N8wwgEgAKCT/VeZS8BDQbQDLkAmV6K0ElE/z94D8gH9AIPAQeAAAAAEEEEAggioAIFu8bio8vQsnAIYqYiKZZVfaL2nGjE4nGV2vgYLg8CzssXXTkCxEMDvswQ8O7fsdTTEVwWG2y0heG16yvJyx2mEHNqdOr9QVQAdpfzrYOWX46zpZtd4GucvKGUp/CH55LCVypqfgDaAfJnuvgbtjp/zkVsAoRVE+tff6Bw1ms77m9WQ5SY00kd7CSlco4kfKSm8rFUTLHJ/ajUQOGGfHuMlyRv05CAN9jYiXPCJBuvcQzCkjqQ5iV3zXDX8H+9Fn4qUgvrscm/+wKeK9k7Bl4hxF58M84Pi4HxI/BUdpXC1350QLix3vXiChrKp0Dwfp4HF8qYh1zXjNgPv1XXoHRKIM5wisFWZj+cK9df1XtYR8R1DMDfV/Wx5/BqEIZcTHkxkgYN/F38DE07mRgQ9lq9Ivk/kjJVTSh5xcJ+3Mtu47i/86A0cSE" alt="Apple Pay" width="38" height="24" loading="lazy"></li>
+<li title="تمارا"><img src="data:image/avif;base64,AAAAGGZ0eXBhdmlmAAAAAG1pZjFtaWFmAAABaG1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAHBpY3QAAAAAAAAAAAAAAAAAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAIAAAABAAABiAAAARQAAQAAAAEAAAKcAAACfAAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAACvaXBycAAAAIppcGNvAAAAFGlzcGUAAAAAAAAAOgAAADoAAAAMYXYxQ4E/QAAAAAAQcGl4aQAAAAADCgoKAAAADGF2MUOBH1wAAAAADnBpeGkAAAAAAQoAAAA4YXV4QwAAAAB1cm46bXBlZzptcGVnQjpjaWNwOnN5c3RlbXM6YXV4aWxpYXJ5OmFscGhhAAAAAB1pcG1hAAAAAAAAAAIAAQMBggMAAgQBhAYFAAADmG1kYXQSAAoGH9V55L1AMocCZVo1/cB/QCBAEKgAAAAAAOOCCIA/++Mda0r8yU27Dtuj/7SiuTo/mFfS65eu0bi1ZB/Ib2qdEYdRTAwlPV1KV+r8MMHVEfUkxzvQvOCo4f2UegmdLzWilfs3pOHyC4s2xW0wJTXFMNfB7WOyRyB1maSzb8RlLUneHHkVSvDp/t1c0zulDCZiYT9dcEDQQWyzHIT2KzJMcWxeeQbw0sseh0SLtuclMktpzpZ6Ja++nVH0B9mn4rzdIhPdcXqXEsyxQ1KsVlj008uapSicxBXgak1Ad1/W+oxQ3JlgFNB6giwVF23O8TJQM/xqkyx+JTtaJFiMwdpyH4vdVYQ1rxHPl3ccm/iyxngSAAoJP9V55LwENBtAMuwEZVo3SS0b/v8AIEAQsAAAAAAAAOOOOCCCKgAH5nPKUQ0D+ZsGpd3WBb9mPVq5iVXqLadglOAG6hHu+WAhJ6FsTotdRYrg6KRnTeJIeqYxTzkG3pZ9XVyYu9Do+N27Llu1VbQ1VV69hXlRAMy9y4OPHdsTHd22oxdC32z3+GayoMLbHjWRTyn6xCUmfhpskYpeCZ+AMNdYnF3B4GqsHP4/INRf/+dNsxZPpwIRE41XajwqfgUROqi0PonMtV8rzkLy84A+vuGJGsbxnuvGPxhFGR4TU+/D0XqKVbVgnc1pJF3icxIfdOS+eDrSJZzWJtlH67OAPzLOvp1r+tDM7r9Z4Ub3IFbVcMoc2iQpGnu/WNEaTK05IsyKKgetaJAxhjtZLB9a8UXRN805CCDYrxLgeF8k1h0rGySOFD6hBkCBG6469xQlVfrhzsCLZyk9OjNUTnu5e62uHXuD5J1x3lTY9BGoIRugcF5MPMbncnuyqTSdvlwcWcyvcGnRD1hbS/BVBaoow+PMtIa6paoJShkWDmeslww3AydqsQsmHiCmOGeYo0VzRhJ5ip0jg/TAlMvtsLM0VvBHv2vvWWfa20cl5V842XysiLLt0acwAQLjfDx6SKLTIXKhryKi7n3fMO81dc2uRu5rZYEiIhewnnPnqFOmKq//8jk2K9jwRjAb2vDpPtb/aNRWcujzis1Qfb2hnJ44laf8Y10aNerTtiM6N6A8oK3FZ+u8qq1maUk/45kyE8tOtJXQH3lpJuNiGHJkt1JZZhpR1B6TwAlagn75jaSIQf6y4kwmz+5hmKa3MSjYdF02w1aSnpHlSdA=" alt="تمارا" width="38" height="24" loading="lazy"></li>
+<li title="محفظة العميل"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAApCAYAAABKvBuPAAABGklEQVR4Ae2Z4QmDMBCFL8UBukEdoSNYUHCr2gm6gt1CUNBu0BEyggMo9iL+aEuNkdJLIvf9MMIl+MQXXjgFvJAkyXEYhj1YJggCWRSF1M5RlzRNw77vaxQdggN0XXfBIdPN2akLio5cEW3KKNw30YodeEqgqZ2AjhpWMiu8qqoGiIjjGNbirVW253H8fBFYQghx0D1f2VioG5yU4XAGT8AXk15aReUOb05qXAkgE95CyokAMuEzpNjj1LBwalg4NZsMoL8ytUKu32p4iLqVZZnr1lsTPvVvopnafWE5e5wca1ZBH7doiWamJheW2xOOm+8BP5xA2ePUsHBqWDg13IKjRhdAq3vWlHjv8RY8YxSOv+dyk4ONKyitT6OqUginJN5xAAAAAElFTkSuQmCC" alt="محفظة العميل" width="38" height="24" loading="lazy"></li>
+<li title="الدفع عند الاستلام"><img src="data:image/avif;base64,AAAAGGZ0eXBhdmlmAAAAAG1pZjFtaWFmAAABaG1ldGEAAAAAAAAAIWhkbHIAAAAAAAAAAHBpY3QAAAAAAAAAAAAAAAAAAAAADnBpdG0AAAAAAAEAAAAsaWxvYwAAAABEAAACAAIAAAABAAABiAAAAYYAAQAAAAEAAAMOAAAB+gAAADhpaW5mAAAAAAACAAAAFWluZmUCAAAAAAEAAGF2MDEAAAAAFWluZmUCAAAAAAIAAGF2MDEAAAAAGmlyZWYAAAAAAAAADmF1eGwAAgABAAEAAACvaXBycAAAAIppcGNvAAAAFGlzcGUAAAAAAAAAOgAAACYAAAAMYXYxQ4E/QAAAAAAQcGl4aQAAAAADCgoKAAAADGF2MUOBH1wAAAAADnBpeGkAAAAAAQoAAAA4YXV4QwAAAAB1cm46bXBlZzptcGVnQjpjaWNwOnN5c3RlbXM6YXV4aWxpYXJ5OmFscGhhAAAAAB1pcG1hAAAAAAAAAAIAAQMBggMAAgQBhAYFAAADiG1kYXQSAAoGH9V5lL1AMvkCZYIt+8BAICDAAAAAAAACCAQRAD52kyYxBNhUlz3qbvrbeQ5YNmn5xF9zc14BZnEFVIbiIaAhjZn0rFi6z8LAYJFxvavFPaSktqUPqUpETwswDhZNKShHTnSdukbF/PUz1Cq4frVkrt4vvlJJZuN5Ya7cArVSgE7B1gaPsWAMT6p/J3d7lhMjB47bt2wD0qy8G5CvwFfrPhXUaKimwaVXAXCZ/+k3Tvy9LDZjTbs1L+/MZ8aHz+O75kM9ECk9pF8h6fe6GSIZJ/vJDqoFCN+WUdwcEPwqc1JcoeGwSERSTNZMREzvI8wQvos++SzuDcgtJCv1DO1V+iX6eWylztfc0dWtl31JfFshNlxQqiJIuzWtoOfx1FYRd1OV1fxBOQHsPHI4CFApScBmdlM13cogxLkP4LaEbaXVffVAX9J9jPH1gaabdgmUjdspbl0c2gDBo7eJKB7Ubqb/jbzLTy18PaFQy/xnNPy0awMg5uWQv3yXBxE5QSdakbkSAAoJP9V5lLwENBtAMuoDZYIrPyUR/P4AIFAQYAAAAAAAAQQQQCCCKgAH5lQOxIVr9DB/dE/QP8d5wiKy0p8Lrvh2unE0gyoBtOSv2OJaBXS0Z0wd9wMGkEGkWwWMsyf/TfnGwPo3cvvoBpWgMAx+DzIXKLO5HK3iQkQiw6O/ljgHTXGNDWubhHMa7q7rFrtfaEBOgLFLWD6AdVD/pyGs84HwUkErDaOhGdJeRGkTNV8Doqibz3OO7hDkHl0hVmIGJIXHslK6j/EoCCXxyWWMpMiL4TYp6viTD8RWtZyZL2i8bMQUWqvHGiex4f0CjRJpzIKT7sJEZwCfByFAyV72G/dq/qQGgV34YKdhNAgY6bt5cPwFQrJ8MyouSVocogDAkNu7rLa2vfeD5db70JBT8DzFnWTb1az4aIp4rXOrl7JB08dPUtQAQ0YJ3OsPevx5c+Z/STOUu0rpW9OMgwVvj4QANESzp4PnrUbKaPLnCPbTc2r6pmdVJaqS0Re4dm/feRVAz//DGIJYoTebbysYswO/xA4hn28peyaj/DFrDiKDam+FGJTpTepKSXgZk+QSx/xY8W0Y3QoWOLtzaXW+dAa9odE1y0VrhK9sSpieJpkWDIrNDAoQuEO75kVRuEPLX+HxPm7eeZNs1L5mdve6+NgjifTdRoob4A==" alt="الدفع عند الاستلام" width="38" height="24" loading="lazy"></li></ul>
+  </div>
+ </div>
+</footer>
+
+
+<script>
+  (function(){
+    const els = document.querySelectorAll('.cv-reveal');
+    if(!('IntersectionObserver' in window)) { els.forEach(el=>el.classList.add('cv-show')); return; }
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){ entry.target.classList.add('cv-show'); io.unobserve(entry.target); }
+      });
+    },{threshold:.12});
+    els.forEach(el=>io.observe(el));
+
+
+  })();
+</script>
+
+<script>
+(() => {
+ const menu = document.querySelector('.cv-mobile-menu');
+ const summary = menu.querySelector('summary');
+ menu.addEventListener('click', event => { if (event.target.closest('a')) menu.open = false; });
+ document.addEventListener('keydown', event => { if (event.key === 'Escape' && menu.open) { menu.open = false; summary.focus(); } });
+ document.addEventListener('click', event => { if (menu.open && !menu.contains(event.target)) menu.open = false; });
+})();
+</script>
+
+<script>
+(() => {
+ document.querySelectorAll('.cv-products-track').forEach(track => {
+  let drag = null;
+  let suppressClick = false;
+  track.querySelectorAll('img,a').forEach(el=>el.setAttribute('draggable','false'));
+  track.addEventListener('pointerdown', event => {
+   if(event.pointerType !== 'mouse' || event.button !== 0) return;
+   suppressClick = false;
+   drag = {id:event.pointerId,x:event.clientX,left:track.scrollLeft,moved:false};
+  });
+  track.addEventListener('pointermove', event => {
+   if(!drag || event.pointerId !== drag.id) return;
+   const delta = event.clientX-drag.x;
+   if(!drag.moved && Math.abs(delta)>6){drag.moved=true;track.setPointerCapture(event.pointerId);track.classList.add('is-dragging');}
+   if(drag.moved){event.preventDefault();track.scrollLeft=drag.left-delta;}
+  });
+  const endDrag = event => {
+   if(!drag || event.pointerId!==drag.id) return;
+   suppressClick=drag.moved;
+   drag=null;
+   track.classList.remove('is-dragging');
+   if(track.hasPointerCapture(event.pointerId)) track.releasePointerCapture(event.pointerId);
+   setTimeout(()=>{suppressClick=false;},0);
+  };
+  track.addEventListener('pointerup',endDrag);
+  track.addEventListener('pointercancel',endDrag);
+  track.addEventListener('pointerleave',event=>{if(drag&&!drag.moved)endDrag(event);});
+  track.addEventListener('click',event=>{if(suppressClick){event.preventDefault();event.stopPropagation();}},true);
+  track.addEventListener('keydown',event=>{
+   if(event.target!==track || !['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
+   event.preventDefault();
+   if(event.key==='Home'){track.scrollLeft=0;return;}
+   if(event.key==='End'){track.scrollLeft=-track.scrollWidth;return;}
+   const card=track.querySelector('.cv-product');
+   const step=card.getBoundingClientRect().width+parseFloat(getComputedStyle(track).columnGap||0);
+   track.scrollBy({left:event.key==='ArrowLeft'?-step:step,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});
+  });
+ });
+})();
+</script>
+
+</body>
+</html>
