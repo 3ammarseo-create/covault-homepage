@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1833 797" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+    <linearGradient id="patchDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101d22" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#16282f" stop-opacity=".82"/>
+    </linearGradient>
+    <linearGradient id="patchWarm" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a3028" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#1a2428" stop-opacity=".82"/>
+    </linearGradient>
+  </defs>
+
+  <image href="https://images.unsplash.com/photo-1752757230517-3a929eb1ebcf?auto=format&amp;fit=crop&amp;q=88&amp;w=2200"
+         x="0" y="0" width="1833" height="797" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- Brand removal patches only -->
+  <rect x="78" y="250" width="286" height="175" rx="20" fill="url(#patchDark)" opacity=".82" filter="url(#soft)"/>
+  <rect x="900" y="352" width="92" height="112" rx="20" fill="url(#patchDark)" opacity=".88" filter="url(#soft)"/>
+  <rect x="565" y="575" width="150" height="125" rx="18" fill="url(#patchWarm)" opacity=".78" filter="url(#soft)"/>
+  <rect x="716" y="520" width="198" height="82" rx="16" fill="url(#patchWarm)" opacity=".77" filter="url(#soft)"/>
+  <rect x="965" y="618" width="165" height="125" rx="18" fill="url(#patchWarm)" opacity=".78" filter="url(#soft)"/>
+</svg>
